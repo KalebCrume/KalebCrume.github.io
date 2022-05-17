@@ -1,0 +1,257 @@
+/* Applies To All Pages*/
+@media screen and (max-width: 700px) {
+  .Row, .navbar {
+    flex-direction: column;
+  }
+}
+.socialmedia{
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+footer{
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  align-content: center;
+  border-top: #4CAF50 5px solid;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  padding-top: 300px;
+
+}
+img{
+  border: 5px solid black;
+}
+
+/* Home */
+li{
+  display: inline;
+}
+.navtext{
+  position: fixed;
+  /* margin-left: 25px; */
+  background-color: black;
+  padding-left: 40px;
+}
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #262626;
+  border-top: 5px solid black;
+}
+
+.suit img {
+  height: 900px;
+  flex: 50%;
+  margin-left: 50px;
+}
+.hometext{
+  flex: 50%;
+  font-size: 36px;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+
+/* Secondpart of home page */
+.home2{
+  display: flex;
+  background-color: #262626;
+  margin-top: -3%;
+}
+.hometext2{
+  flex: 50%;
+  font-size: 36px;
+  color: white;
+  margin-left: 4%;
+  text-align: center;
+}
+.fun img{
+  flex: 50%;
+  height: 500px;
+  margin-right: 70px;
+  margin-bottom: 2%;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.navbar a{
+  padding-right: 120px;
+  padding-left: 100px;
+}
+
+.navbar{
+background-image: url(Picture/computer.jpg);
+background-color: #777773;
+background-blend-mode: multiply;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-bottom: 20%;
+font-size: 50px;
+margin-top: -4%;
+}
+.navbar a:hover {
+  text-decoration:underline;
+}
+
+
+
+/* Goals */
+.navbara{
+margin-top: -3.5%;
+background-image: url(Picture/degree.jpg);
+background-color: #777773;
+background-blend-mode: multiply;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-bottom: 20%;
+font-size: 50px;
+}
+.navbara a:hover {
+  text-decoration:underline;
+}
+.navbara a{
+  padding-right: 120px;
+  padding-left: 100px;
+}
+.edugoals{
+  padding-left: 5px;
+  font-size: 36px;
+  color: white;
+  margin-top: -5%;
+  background-color: #262626;
+  padding-bottom: 2%;
+}
+
+/* Hobbies */
+.navbarh{
+margin-top: -3.5%;
+background-image: url(Picture/fishing.jpg);
+background-color: #777773;
+background-blend-mode: multiply;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-bottom: 20%;
+font-size: 50px;
+}
+.navbarh a:hover {
+  text-decoration:underline;
+}
+.navbarh a{
+  padding-right: 120px;
+  padding-left: 100px;
+}
+.Fishing{
+  display: flex;
+  background-color: #262626;
+  border-top: black 5px solid;
+}
+.fishpic img{
+height: 500px;
+flex: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+.fishtext{
+  flex: 50%;
+  font-size: 36px;
+  color: white;
+  margin-left: 5px;
+}
+
+.Hunting{
+  display: flex;
+  background-color: #262626;
+}
+.huntpic img{
+height: 500px;
+flex: 50%;
+margin-top: 5px;
+margin-right: 5px;
+}
+.hunttext{
+  flex: 50%;
+  font-size: 36px;
+  color: white;
+  margin-left: 5px;
+  text-align: center;
+}
+.Backpacking{
+  display: flex;
+  background-color: #262626;
+}
+.packpic img{
+height: 600px;
+flex: 50%;
+margin-top: 5px;
+margin-left: 5px;
+}
+.backtext{
+  flex: 50%;
+  font-size: 36px;
+  color: white;
+  margin-left: 5px;
+}
+/* Classes */
+.navbarc{
+margin-top: -3.5%;
+background-image: url(Picture/classroom.jpg);
+background-color: #777773;
+background-blend-mode: multiply;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-bottom: 22%;
+font-size: 50px;
+}
+.navbarc a{
+  padding-right: 120px;
+  padding-left: 100px;
+}
+
+.Future{
+  flex: 49.5%;
+  text-align: center;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+.Completed{
+  flex: 49.5%;
+  text-align: center;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+}
+.classes{
+ display: flex;
+ flex-wrap: wrap;
+ background-color:#262626 ;
+ font-size: 36px;
+ color:white;
+}
