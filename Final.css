@@ -44,9 +44,8 @@ li{
 }
 .navtext{
   position: fixed;
-  /* margin-left: 25px; */
   background-color: black;
-  padding-left: 40px;
+  padding-left: 2.5%;
 }
 .home{
   display: flex;
